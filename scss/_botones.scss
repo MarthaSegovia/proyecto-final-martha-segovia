@@ -1,0 +1,45 @@
+/*botones*/
+
+.respuestainput {
+	background-color: $background-color_3;
+	border: #2C8D95;
+	color: $color_4;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.botoninput {
+	background-color: $background-color_1;
+	border: #2C8D95;
+	color: $color_4;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.btnnormal {
+	background-color: $background-color_1;
+	&:hover {
+		background-color: $background-color_2;
+	}
+}
+.navbar-toggler {
+	&:focus {
+		box-shadow: none;
+	}
+}
+.nav-link {
+	font-size: 25px;
+	margin-right: 35px;
+	color: $color_2;
+	&:hover {
+		color: $color_3;
+	}
+}
+
+.btn-primary {
+	background-color: $background-color_1;
+	border: #2C8D95;
+	color: $color_4;
+	&:hover {
+		background-color: $background-color_3;
+		color: $color_3;
+	}
+}

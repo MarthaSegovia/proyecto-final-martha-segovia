@@ -1,0 +1,76 @@
+/*Productos*/
+@mixin section{
+    display: flex;
+	flex-direction: row;
+	justify-content: stretch;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.cajalechedorada {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: stretch;
+	margin-bottom: 100px;
+}
+.lechedorada {
+	background: linear-gradient(to left, #93C7BA, #daffef);
+	color: $color_3;
+	text-align: left;
+	padding: 40px;
+	border-radius: 0rem 5rem 5rem 0rem;
+}
+.imagenenblog {
+	border-radius: 20rem 5rem 5rem 5rem;
+	width: 100%;
+	padding-left: 40px;
+}
+.cajadeimagen {
+	&:hover {
+		filter: opacity(70%);
+	}
+}
+.contenedorProductos {
+	img {
+		width: 300px;
+	}
+}
+
+/*Colecciones*/
+
+section {
+@include section;
+}
+.card-title {
+	font-size: 20px;
+	color: $color_3;
+}
+.card {
+	background-color: $background-color_5;
+	border-color: $border-color_1;
+	transition: all 3s;
+	&:hover {
+		transform: translateY(-15px);
+	}
+}
+.card-text {
+	font-size: 14px;
+	color: $color_6;
+}
+
+/*video y mapa*/
+
+.padrevideomapa {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.video {
+	width: 50%;
+	border-radius: 10px;
+}
+.mapa {
+	width: 50%;
+	border-radius: 10px;
+}

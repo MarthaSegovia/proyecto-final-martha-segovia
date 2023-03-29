@@ -1,0 +1,85 @@
+
+
+/*encabezado*/
+
+.logo {
+	width: 400px;
+}
+
+/*main*/
+
+body {
+	color: $color_1;
+}
+main {
+	text-align: center;
+	p {
+		margin: 10px 70px;
+	}
+	iframe {
+		margin: 60px;
+	}
+}
+
+h1 {
+	font-family: $font-family_1;
+	font-size: 60px;
+	color: $color_5;
+	text-align: center;
+	padding-bottom: 2px;
+	margin: 35px 20px 35px 20px;
+}
+h4 {
+	font-size: 18px;
+	margin: 10px;
+}
+.subtitulo {
+	font-weight: bold;
+	font-size: 20px;
+	color: $color_2;
+	text-align: center;
+	padding-bottom: 2px;
+	margin: 35px 0px 35px 0px;
+}
+.parrafos {
+	color: $color_2;
+	font-size: 16px;
+	margin: 0px 20px 35px 20px;
+}
+.frases {
+	font-family: $font-family_2;
+	font-weight: bold;
+	font-size: 40px;
+	margin: 35px 20px 0px 20px;
+	color: $color_5;
+	text-align: center;
+	&:hover {
+		display: inline-block;
+		margin: 0 0.5rem;
+		animation: bounce;
+		animation-duration: 5s;
+	}
+}
+.colorfondo {
+	background-color: $background-color_4;
+}
+
+/*footer*/
+
+.piedepaginaUno {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background: linear-gradient(to left, #93C7BA, #daffef);
+	color: $color_2;
+	border-top: darkcyan 3px solid;
+}
+.piedepaginaredes {
+	a {
+		text-decoration: none;
+		margin: 35px 20px 35px 20px;
+		font-size: 14px;
+		color: $color_2;
+	}
+}
